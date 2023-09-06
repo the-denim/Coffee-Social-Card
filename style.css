@@ -6,10 +6,9 @@
     box-sizing: border-box;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
-body {
-    /*background-image: url(img/mountain2.png);*/
-    background-color: #0d1b2a;
+html {
+/*background-image: url(img/mountain2.png);*/
+background-color: #0d1b2a;
 }
 
 /*.container {

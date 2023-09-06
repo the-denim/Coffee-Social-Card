@@ -15,11 +15,12 @@ body {
 }*/
 .card {
     margin:auto;
-    margin-top: 2rem;
+    margin-top: 4rem;
     max-width: 25rem;
     height: 35rem;
     background-color: brown;
     border-radius: 0.5rem ;
+    box-shadow: 0 0 2rem 0 rgb(0, 0, 0);
 }
 .price-img-title-icon-message-follow {
     display: grid;
@@ -84,10 +85,24 @@ body {
     font-size: 1rem;
 }
 .icon img {
-    translate: 0 -5rem;
+    translate: 0 -6rem;
     display: block;
     margin-left: auto;
     margin-right: auto;
     border-radius: 50%;
     width: 5.5rem;
+    border: 0.125rem solid rgb(255, 255, 255, 50%);
+}
+.message{
+    text-align: center;
+}
+
+.message button{
+    width: 7rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    border-style:none;
+    background-color: transparent;
+    border: 1px solid black;
+    cursor:pointer;
 }

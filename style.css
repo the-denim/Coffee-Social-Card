@@ -4,86 +4,100 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 body {
-    background-color: antiquewhite;
+    /*background-image: url(img/mountain2.png);*/
+    background-color: #0d1b2a;
 }
+
 /*.container {
     position: relative;
 }*/
 .card {
-    margin:auto;
+    margin: auto;
     margin-top: 4rem;
     max-width: 25rem;
     height: 35rem;
-    background-color: brown;
-    border-radius: 0.5rem ;
-    box-shadow: 0 0 2rem 0 rgb(0, 0, 0);
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0 0 3rem 1rem rgb(255, 255, 255, 0.2);
+
 }
+
 .price-img-title-icon-message-follow {
     display: grid;
-    grid-template-areas: 
-    "price"
-    "img"
-    "title"
-    "icon"
-    "message"
-    "follow"
+    grid-template-areas:
+        "price"
+        "img"
+        "title"
+        "icon"
+        "message"
+        "follow"
     ;
 }
-.price-img-title-icon-message-follow:nth-child(1){
+
+.price-img-title-icon-message-follow:nth-child(1) {
     grid-area: price;
 }
-.price-img-title-icon-message-follow:nth-child(2){
+
+.price-img-title-icon-message-follow:nth-child(2) {
     grid-area: img;
 }
-.price-img-title-icon-message-follow:nth-child(3){
+
+.price-img-title-icon-message-follow:nth-child(3) {
     grid-area: title;
 }
-.price-img-title-icon-message-follow:nth-child(4){
+
+.price-img-title-icon-message-follow:nth-child(4) {
     grid-area: icon;
 }
-.price-img-title-icon-message-follow:nth-child(5){
+
+.price-img-title-icon-message-follow:nth-child(5) {
     grid-area: message;
 }
-.price-img-title-icon-message-follow:nth-child(6){
+
+.price-img-title-icon-message-follow:nth-child(6) {
     grid-area: follow;
 }
+
 .price {
-    background-color: orangered;
+    background-color: #1b263b;
     color: white;
     text-align: center;
     padding: 0.25rem;
-    border-radius: 0.5rem 0.5rem 0 0;
+    border-radius: 1rem 1rem 0 0;
     font-weight: 700;
 }
 
-.img img{
+.img img {
     filter: brightness(50%);
     width: 25rem;
     max-height: 13rem;
     overflow: hidden;
     object-fit: cover;
+    padding: 0;
+    margin: 0;
+    border-bottom: 0.2rem solid #1b263b;
 }
-.img {
-    scale: 100%;
-    
-}
+
 .title {
     text-align: center;
     translate: 0 -9.5rem;
 }
-.title h1{
+
+.title h1 {
     color: white;
     font-size: 1.25rem;
 }
-.title p{
+
+.title p {
     margin-top: 0.25rem;
     color: white;
     font-size: 1rem;
 }
+
 .icon img {
     translate: 0 -6rem;
     display: block;
@@ -91,18 +105,89 @@ body {
     margin-right: auto;
     border-radius: 50%;
     width: 5.5rem;
-    border: 0.125rem solid rgb(255, 255, 255, 50%);
-}
-.message{
-    text-align: center;
+    border: 0.2rem solid #1b263b;
+
 }
 
-.message button{
-    width: 7rem;
-    height: 2rem;
-    border-radius: 0.5rem;
-    border-style:none;
+.message {
+    text-align: center;
+    translate: 0 -7rem;
+    /*border: 1px solid rgb(0, 0, 0, 20%);
+    border-top: none;
+    border-left: none;
+    border-right: none;*/
+
+}
+
+.message button {
+    color: #1b263b;
+    width: 7.5rem;
+    height: 2.25rem;
+    border-radius: 0.2rem;
+    border-style: none;
     background-color: transparent;
-    border: 1px solid black;
-    cursor:pointer;
+    border: 0.125rem solid #1b263b;
+    cursor: pointer;
+    margin: 1.5rem;
+    font-weight: 500;
+}
+
+.follow {
+    margin: auto;
+    display: flex;
+    gap: 4rem;
+    text-align: center;
+    width: min-content;
+    font-weight: 900;
+    translate: 0 -7.5rem;
+}
+
+.follow h1 {
+    font-size: 1.1rem;
+}
+
+.follow p {
+    font-size: 0.7rem;
+    font-weight: 400;
+}
+
+.place-site {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    translate: 0 -6rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgb(0, 0, 0, 50%);
+
+}
+
+.place-site h1 {
+    font-size: 1.1rem;
+}
+.place-site p {
+    color: #1b263b;
+    font-size: 0.7rem;
+    font-weight: 400;
+}
+.button{
+    text-align: center;
+    
+
+}
+.button button {
+    background-color: #1b263b;
+    color: white;
+    text-align: center;
+    padding: 0.25rem;
+    border-radius:0 0 1rem 1rem;
+    font-weight: 700;
+    width: 25rem;
+    height: 5rem;
+    translate: 0 -4rem;
+    border-style: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.button button:hover{
+    background-color:rgb(20, 68, 95) ;
 }

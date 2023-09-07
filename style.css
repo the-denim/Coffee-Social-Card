@@ -8,7 +8,7 @@
 }
 html {
 /*background-image: url(img/mountain2.png);*/
-background-color: #0d1b2a;
+background-color: #000;
 }
 
 /*.container {
@@ -19,9 +19,9 @@ background-color: #0d1b2a;
     margin-top: 4rem;
     max-width: 25rem;
     height: 35rem;
-    background-color: white;
-    border-radius: 1rem;
-    box-shadow: 0 0 3rem 1rem rgb(255, 255, 255, 0.2);
+    background-color: #E5E5E5;
+    border-radius: 1.14rem;
+    box-shadow: 0.25rem 0.25rem 2rem 0 rgb(255, 255, 255, 0.5);
 
 }
 
@@ -62,7 +62,7 @@ background-color: #0d1b2a;
 }
 
 .price {
-    background-color: #1b263b;
+    background-color: #FCA311;
     color: white;
     text-align: center;
     padding: 0.25rem;
@@ -78,7 +78,7 @@ background-color: #0d1b2a;
     object-fit: cover;
     padding: 0;
     margin: 0;
-    border-bottom: 0.2rem solid #1b263b;
+    border-bottom: 0.2rem solid #FCA311;
 }
 
 .title {
@@ -104,7 +104,7 @@ background-color: #0d1b2a;
     margin-right: auto;
     border-radius: 50%;
     width: 5.5rem;
-    border: 0.2rem solid #1b263b;
+    border: 0.2rem solid #FCA311;
 
 }
 
@@ -119,13 +119,13 @@ background-color: #0d1b2a;
 }
 
 .message button {
-    color: #1b263b;
+    color: #000000;
     width: 7.5rem;
     height: 2.25rem;
     border-radius: 0.2rem;
     border-style: none;
     background-color: transparent;
-    border: 0.125rem solid #1b263b;
+    border: 0.125rem solid #000000;
     cursor: pointer;
     margin: 1.5rem;
     font-weight: 500;
@@ -139,6 +139,7 @@ background-color: #0d1b2a;
     width: min-content;
     font-weight: 900;
     translate: 0 -7.5rem;
+    color:#14213D;
 }
 
 .follow h1 {
@@ -157,6 +158,7 @@ background-color: #0d1b2a;
     translate: 0 -6rem;
     padding-top: 1rem;
     border-top: 1px solid rgb(0, 0, 0, 50%);
+    color:#14213D;
 
 }
 
@@ -174,7 +176,7 @@ background-color: #0d1b2a;
 
 }
 .button button {
-    background-color: #1b263b;
+    background-color: #FCA311;
     color: white;
     text-align: center;
     padding: 0.25rem;
@@ -188,5 +190,5 @@ background-color: #0d1b2a;
     cursor: pointer;
 }
 .button button:hover{
-    background-color:rgb(20, 68, 95) ;
+    background-color:#d6890e ;
 }
